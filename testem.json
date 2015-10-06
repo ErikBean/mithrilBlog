@@ -1,0 +1,9 @@
+{
+  "framework": "mocha",
+  "src_files": [
+    "src/**/*.js",
+    "test/**/*.spec.js",
+    "node_modules/chai/chai.js"
+  ],
+  "launch_in_dev": ["Chrome"]
+}

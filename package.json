@@ -4,7 +4,7 @@
   "description": "sanbox to try out git@github.com:ErikBean/mithrilBlog.git",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
+    "test": "testem --file=testem.json",
     "start": "browser-sync start --server --files index.html"
   },
   "repository": {
