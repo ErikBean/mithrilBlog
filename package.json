@@ -1,0 +1,35 @@
+{
+  "name": "mithril-blog",
+  "version": "0.0.0",
+  "description": "sanbox to try out git@github.com:ErikBean/mithrilBlog.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "browser-sync start --server --files index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ErikBean/mithrilBlog.git"
+  },
+  "keywords": [
+    "mithril",
+    "blog",
+    "javascript",
+    "MVC"
+  ],
+  "author": "Erik Bean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErikBean/mithrilBlog/issues"
+  },
+  "homepage": "https://github.com/ErikBean/mithrilBlog",
+  "dependencies": {
+    "mithril": "^0.2.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.8",
+    "browserify": "^11.2.0",
+    "node-sass": "^3.3.3",
+    "watchify": "^3.4.0"
+  }
+}
