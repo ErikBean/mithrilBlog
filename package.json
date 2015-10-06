@@ -4,7 +4,7 @@
   "description": "sanbox to try out git@github.com:ErikBean/mithrilBlog.git",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
+    "test": "testem --file=testem.json",
     "start": "browser-sync start --server --files index.html"
   },
   "repository": {
@@ -29,7 +29,10 @@
   "devDependencies": {
     "browser-sync": "^2.9.8",
     "browserify": "^11.2.0",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
     "node-sass": "^3.3.3",
+    "testem": "^0.9.6",
     "watchify": "^3.4.0"
   }
 }
