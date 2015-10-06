@@ -1,9 +1,5 @@
-describe("tests", function () {
-    var expect;
-    beforeEach(function () {
-        expect = window.chai.expect;
-    });
-    it("should have chai", function () {
-        expect(expect).to.be.ok;
+describe("mithril", function () {
+    it("should load", function () {
+        expect(m).to.be.ok;
     });
 });
